@@ -6,7 +6,7 @@ function Vector(x = undefined, y = undefined)
 	
 	this.vectorTo(otherVector)
 	{
-[		return new Vector(
+		return new Vector(
 			otherVector.x - this.x,
 			otherVector.y - this.y);
 	}
